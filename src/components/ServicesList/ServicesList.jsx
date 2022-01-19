@@ -22,7 +22,7 @@ const AboutList = (props) => {
 
  
 function handleClick(event) {
-    if (event.currentTarget !== event.target) {
+    if (event.currentTarget !== event.target && event.target.textContent==="Сервисы") {
       props.onClose();
     }
   }

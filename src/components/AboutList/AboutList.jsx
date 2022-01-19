@@ -5,6 +5,7 @@ import menu from '../../JSON/footerAboutList.json'
 import List from '../List'
 import { useEffect } from 'react';
 
+
 const AboutList = (props) => {
     useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
@@ -22,9 +23,10 @@ const AboutList = (props) => {
 
  
 function handleClick(event) {
-    if (event.currentTarget !== event.target) {
+  if (event.currentTarget !== event.target && event.target.textContent==="Про Компанию") {
       props.onClose();
-    }
+  }
+  
   }
 
   function handleKeyDown(event) {
@@ -34,9 +36,9 @@ function handleClick(event) {
   }
         
     return (
-        <>
-            <List menu={menu} onClick={handleClick} />
-        </>
+        
+        <List menu={menu} onClick={handleClick} />
+       
     )
    
    

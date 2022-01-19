@@ -1,0 +1,133 @@
+ .navList{
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} 
+
+ .navItem{
+   min-width: 40vh;
+   background: #4f4f4f;
+  padding-top: 15px ;
+   border-radius: 10px;
+}
+
+.navTitle{
+   text-align: center;
+   font-style: normal;
+   text-transform:uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffffff;
+ padding-top: 4px;
+  padding-bottom: 15px;
+}
+.navTitle:hover,
+.navTitle:focus{
+   color: #4f4f4f;
+}
+.navItem:hover,
+.navItem:focus{
+   background: #ff700b;
+}
+
+.navItem:not(:last-child){
+   margin-bottom: 15px;
+} 
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+ .navList{
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} 
+
+ .navItem{
+   min-width: 360px;
+   background: #4f4f4f;
+   padding-top: 15px ;
+   border-radius: 10px;
+}
+
+.navTitle{
+   text-align: center;
+   text-transform:uppercase;
+  font-size: 20px;
+  line-height: 1.33;
+  color: #ffffff;
+ padding-top: 4px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.navItem:not(:last-child){
+   margin-bottom: 15px;
+} 
+}
+ @media screen and (min-width: 768px) and (max-width: 1211px) {
+   .navList{
+   list-style: none; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+} 
+
+ .navItem{
+   min-width: 650px;
+   background: #4f4f4f;
+   padding-top: 10px;
+   border-radius: 10px;
+}
+
+.navTitle{
+   text-align: center;
+   text-transform:uppercase;
+  font-size: 50px;
+  line-height: 1.33;
+  color: #ffffff;
+ padding-top: 10px;
+   padding-bottom: 15px;
+
+  cursor: pointer;
+}
+
+.navItem:not(:last-child){
+   margin-bottom: 40px;
+} 
+}
+
+
+@media screen and (min-width: 1212px){
+ .navList{
+   list-style: none; 
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+
+} 
+
+ .navItem{
+   min-width: 200px;
+   background: #4f4f4f;
+   padding-top: 10px;
+   border-radius: 10px;
+}
+
+.navTitle{
+   text-align: center;
+   text-transform:uppercase;
+   font-size: 25px;
+   line-height: 1.33;
+   color: #ffffff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.navItem:not(:last-child){
+   margin-bottom: 0;
+   margin-right: 15px;
+} 
+}
