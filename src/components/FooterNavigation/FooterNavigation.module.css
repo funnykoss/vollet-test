@@ -6,7 +6,7 @@
 } 
 
  .navItem{
-   min-width: 40vh;
+   min-width: 65vh;
    background: #4f4f4f;
   padding-top: 15px ;
    border-radius: 10px;
@@ -25,11 +25,11 @@
 }
 .navTitle:hover,
 .navTitle:focus{
-   color: #4f4f4f;
+   color: #ffffff;
 }
 .navItem:hover,
 .navItem:focus{
-   background: #ff700b;
+   background: #5c5c5c;
 }
 
 .navItem:not(:last-child){

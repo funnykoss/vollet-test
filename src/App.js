@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "./components/Footer";
-
+import "./App.css";
+import HomePageView from "./view/HomePageView/HomePageView";
 function App() {
   return (
     <>
-      <Footer />
+      <HomePageView />
     </>
   );
 }

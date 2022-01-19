@@ -30,7 +30,6 @@
 
 .input {
   width: 100%;
-  /* height: 14px; */
   background: #e7e8f2;
   border-radius: 6px 0px 0px 6px;
   padding-top: 10px;
@@ -362,17 +361,17 @@ padding-right: 30px;
 .subscribeTitle{
   color: #e7e8f2;
   font-weight: 500;
-  font-size: 45px;
+  font-size:  40px;
   text-align: center;
   padding: 20px 10px;
 
 }
 .subscribeContainerTitle{
   background: #4f4f4f;
-  min-width: 500px;
+  min-width: 460px;
   min-height: 100px;
   border-radius: 10px;
-  padding: 20px 50px;
+  padding: 20px 20px;
    margin-bottom: 0;
    margin-right: 15px;
 }
